@@ -23,8 +23,8 @@ def compressing(file):
 compressing(text)
 
 
-with open('compressed_text2.txt', 'r') as data:
-    text2 = data.read()
+with open('compressed_text2.txt', 'r') as f:
+    text2 = f.read()
 
 
 def decompressing(file: str):
